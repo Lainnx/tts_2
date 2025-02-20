@@ -1,0 +1,13 @@
+En terminal: python -m venv nombre    #(virtual environment) para crear un entorno virtual y aislar el proyecto del resto del sistema, nombre normalmente venv
+
+crea una carpeta, si hay el script "activate" es que aún no está activo (esa carpeta tendria que ser oculta)
+
+control+mayus+p -> python -> python select interpreter -> la version de python que queramos usar (recomendado el de venv(el del entorno virtual))
+
+venv\Scripts\activate.bat   #para activar el entorno, tambien hay deactivate.bat para desactivarlo
+
+pip install pyttsx3     #instala la libreria, tts, ejecutar en terminal directamente, misma carpeta que -venv
+
+pip install SpeechRecognition   #para reconocer voz y la pasa a texto
+
+crear main.py fuera de venv
